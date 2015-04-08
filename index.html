@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>Our Wedding!</title>
+	<title>We're getting married!</title>
 	<meta name="author" content="Andy and Kellie are getting married!">
 	<meta name="viewport" content="width-device-width, initial-scale=1.0">
 
@@ -15,119 +15,136 @@
 	<link rel="stylesheet/less" type="text/css" href="design/css/layout.less">
 
 	<!-- fonts -->
-	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900|Playfair+Display:400,700,900,400italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:700|Playfair+Display|Wire+One' rel='stylesheet' type='text/css'>
 </head>
 
-<body class="project">
+<body>
 	<header>
-		<a href="#rsvp" class="button button_hero" >RSVP</a>
+		<ul class="nav">
+			<li class="rsvp">
+				<a href="#">
+					RSVP
+				</a>
+			</li>
+			<li>
+				<a href="#" class="brand">
+					<img src="design/images/logo.png" alt="" class="half">
+				</a>
+			</li>
+			<li class="rsvp">
+				<a href="#">
+					Deets
+				</a>
+			</li>
+		</ul>
 	</header>
 
-	<main id="main">
-		<section class="intro">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-8 col-sm-offset-2">
-						<h1>We’d like to invite you to our wedding in Bali</h1>
-						<img src="design/images/rings.png" alt="">
-						<p>Food will be plentiful and the bar will be flowing for the entire night.  Wear something comfortable and prepeare to get loose!</p>
-					</div>
-				</div>
-			</div>
-		</section>
+	<section class="intro" id="intro">
+		<p>Hey friends</br>you are invited to</p>
+		<h1>Andy &amp; Kellie's</h1>
+		<p>Wedding in Bali</p>
+		<a href="#" class="button button_primary">RSVP here</a>
+	</section>
 
-		<section class="rsvp" id="rsvp">
-			<div class="inner-box">
-				<div class="container">
-					<h2>RSVP</h2>
-
-					<div class="row">
-						<div class="col-sm-4 col-sm-offset-4">
-							<!-- Google Form -->
-							<form action="https://docs.google.com/forms/d/13gWGZLdbxIPblu0KQ3xdYYJm2Tcq32kaefZxaAR3MHY/formResponse" method="POST" id="ss-form" target="_self" onsubmit="">
-								<ol role="list" class="ss-question-list" style="padding-left: 0">
-									<div class="ss-form-question errorbox-good" role="listitem">
-										<div dir="ltr" class="ss-item  ss-text">
-											<div class="ss-form-entry">
-												<label class="ss-q-item-label" for="entry_881649664">
-													<div class="ss-q-title">Guest name(s)</div>
-													<div class="ss-q-help ss-secondary-text" dir="ltr"></div>
-												</label>
-												<input type="text" name="entry.881649664" value="" class="ss-q-short" id="entry_881649664" dir="auto" aria-label="Guest name(s) " title="">
-												<div class="error-message" id="403674996_errorMessage"></div>
-											</div>
-										</div>
-									</div>
-									<div class="ss-form-question errorbox-good" role="listitem">
-										<div dir="ltr" class="ss-item  ss-radio">
-											<div class="ss-form-entry">
-												<label class="ss-q-item-label" for="entry_1046113893">
-													<div class="ss-q-title">Can you make it?</div>
-													<div class="ss-q-help ss-secondary-text" dir="ltr"></div>
-												</label>
-												<ul class="ss-choices" role="radiogroup" aria-label="Can you make it?  ">
-													<li class="ss-choice-item">
-														<label>
-															<span class="ss-choice-item-control goog-inline-block">
-																<input type="radio" name="entry.2034221362" value="Yeah, we're coming!" id="group_2034221362_1" role="radio" class="ss-q-radio" aria-label="Yeah, we're coming!">
-															</span>
-															<span class="ss-choice-label">Yeah, we're coming!</span>
-														</label>
-													</li>
-													<li class="ss-choice-item">
-														<label>
-															<span class="ss-choice-item-control goog-inline-block">
-																<input type="radio" name="entry.2034221362" value="We can't make it :(" id="group_2034221362_2" role="radio" class="ss-q-radio" aria-label="We can't make it :(">
-															</span>
-															<span class="ss-choice-label">We can't make it :(</span>
-														</label>
-													</li>
-												</ul>
-												<div class="error-message" id="1046113893_errorMessage"></div>
-											</div>
-										</div>
-									</div>
-									<input type="hidden" name="draftResponse" value="[,,&quot;2877898418628523851&quot;]">
-									<input type="hidden" name="pageHistory" value="0">
-									<input type="hidden" name="fbzx" value="2877898418628523851">
-									<div class="ss-item ss-navigate">
-										<table id="navigation-table">
-											<tbody>
-												<tr>
-													<td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">
-														<input type="submit" name="submit" value="Submit" id="ss-submit" class="jfk-button jfk-button-action button ">
-													</td>
-												</tr>
-											</tbody>
-										</table>
-									</div>
-								</ol>
-							</form>
+	<section class="rsvp" id="rsvp">
+		<h2>RSVP</h2>
+		<p>By August 31st</p>
+		<!-- Google Form -->
+		<form action="https://docs.google.com/forms/d/13gWGZLdbxIPblu0KQ3xdYYJm2Tcq32kaefZxaAR3MHY/formResponse" method="POST" id="ss-form" target="_self" onsubmit="">
+			<ol role="list" class="ss-question-list" style="padding-left: 0">
+				<div class="ss-form-question errorbox-good" role="listitem">
+					<div dir="ltr" class="ss-item  ss-text">
+						<div class="ss-form-entry">
+							<label class="ss-q-item-label" for="entry_881649664">
+								<div class="ss-q-title">Guest name(s)</div>
+								<div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+							</label>
+							<input type="text" name="entry.881649664" value="" class="ss-q-short" id="entry_881649664" dir="auto" aria-label="Guest name(s) " title="">
+							<div class="error-message" id="403674996_errorMessage"></div>
 						</div>
 					</div>
 				</div>
-			</div>
-		</section>
-		<!-- rsvp -->
-
-		<section class="venue">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-4">
-						
+				<div class="ss-form-question errorbox-good" role="listitem">
+					<div dir="ltr" class="ss-item  ss-radio">
+						<div class="ss-form-entry">
+							<label class="ss-q-item-label" for="entry_1046113893">
+								<div class="ss-q-title">Can you make it?</div>
+								<div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+							</label>
+							<ul class="ss-choices" role="radiogroup" aria-label="Can you make it?  ">
+								<li class="ss-choice-item">
+									<label>
+										<span class="ss-choice-item-control goog-inline-block">
+											<input type="radio" name="entry.2034221362" value="Yeah, we're coming!" id="group_2034221362_1" role="radio" class="ss-q-radio" aria-label="Yeah, we're coming!">
+										</span>
+										<span class="ss-choice-label">Yeah, we're coming!</span>
+									</label>
+								</li>
+								<li class="ss-choice-item">
+									<label>
+										<span class="ss-choice-item-control goog-inline-block">
+											<input type="radio" name="entry.2034221362" value="We can't make it :(" id="group_2034221362_2" role="radio" class="ss-q-radio" aria-label="We can't make it :(">
+										</span>
+										<span class="ss-choice-label">We can't make it :(</span>
+									</label>
+								</li>
+							</ul>
+							<div class="error-message" id="1046113893_errorMessage"></div>
+						</div>
 					</div>
 				</div>
-			</div>
-		</section>
-	</main>
+				<div class="ss-form-question errorbox-good" role="listitem">
+					<div dir="ltr" class="ss-item  ss-text">
+						<div class="ss-form-entry">
+							<label class="ss-q-item-label" for="entry_729078034">
+								<div class="ss-q-title">Dietary requirements?</div>
+								<div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+							</label>
+							<input type="text" name="entry.729078034" value="" class="ss-q-short" id="entry_729078034" dir="auto" aria-label="Dietary requirements?  " title="">
+								<div class="error-message" id="996849541_errorMessage"></div>
+						</div>
+					</div>
+				</div>
+				<input type="hidden" name="draftResponse" value="[,,&quot;2877898418628523851&quot;]">
+				<input type="hidden" name="pageHistory" value="0">
+				<input type="hidden" name="fbzx" value="2877898418628523851">
+				<div class="ss-item ss-navigate">
+					<table id="navigation-table">
+						<tbody>
+							<tr>
+								<td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">
+									<input type="submit" name="submit" value="Submit" id="ss-submit" class="jfk-button jfk-button-action button ">
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</ol>
+		</form>
+	</section>
 
-	<footer>
-		<!-- insert footer here -->
-	</footer>
+	<section class="where tab" id="where">
+		<div class="container">
+			<p>Br. Pabean, Ketewel</p>
+			<h3>Sukawati</h3>
+			<p>Gianyar, Bali, Indonesia</p>
+		</div>
+	</section>
 
+	<section class="when tab" id="when">
+		<div class="container">
+			<p>Wedding date</p>
+			<h3>01 11 15</h3>
+			<p>3pm ceremony begins</p>
+			<p>7pm reception</p>
+		</div>
+	</section>
 
-
-
+	<section class="footer" id="when">
+		<p>See ya'll there</p>
+		<!-- insert logo -->
+		<img src="" alt="">
+	</section>
 
 <!-- JS -->
 <script src="design/vendor/retina/retina.js" type="text/javascript" charset="utf-8"></script>
